@@ -8,25 +8,32 @@ return [
 			'pdoToolsOnFenomInit' => []
 		]
 	],
-	'composer_init' => [
-		'name' => 'composer_init',
+	'composerInit' => [
+		'name' => 'composerInit',
 		'description' => 'Инициализация composer',
 		'events' => [
 			'OnMODXInit' => []
 		]
 	],
-	'template_list' => [
-		'name' => 'template_list',
+	'templateList' => [
+		'name' => 'templateList',
 		'description' => 'Добавляет кнопку показа ссылок на файловые шаблоны',
 		'events' => [
 			'OnTempFormPrerender' => []
 		]
 	],
-	'manager_breadcrumbs' => [
-		'name' => 'manager_breadcrumbs',
+	'managerBreadcrumbs' => [
+		'name' => 'managerBreadcrumbs',
 		'description' => 'Хлебные крошки в админке',
 		'events' => [
 			'OnDocFormPrerender' => []
+		]
+	],
+	'addFenomModificators' => [
+		'name' => 'addFenomModificators',
+		'description' => 'Подключение кастомных модификаторов Fenom',
+		'events' => [
+			'pdoToolsOnFenomInit' => []
 		]
 	],
 ];
