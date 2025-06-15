@@ -15,6 +15,7 @@ return [
 	'use_frozen_parent_uris' => 1,
 	'confirm_navigation' => 0,
 	'welcome_screen' => 0,
+	'manager_week_start' => 1,
 	'default_template' => 2,
 	'link_tag_scheme' => 'abs',
 	'log_snippet_not_found' => 0,
@@ -25,11 +26,13 @@ return [
 	'resource_tree_node_name' => 'menutitle',
 	'resource_tree_node_tooltip' => 'alias',
 
-	'ace.font_size' => '14px',
+	'admintools_theme' => 'dark',
+
+	'ace.font_size' => '13px',
 	'ace.theme' => 'monokai',
 	'ace.word_wrap' => 1,
 	'ace.show_invisibles' => 1,
-	'ace.height' => 560,
+	'ace.grow' => 700,
 	'ace.soft_tabs' => 0,
 	'ace.tab_size' => 2,
 
@@ -40,11 +43,10 @@ return [
 
 	'error_page_header' => 'HTTP/1.0 404 Not Found',
 
+	'zoomx_routing_mode' => 1,
+	'zoomx_controller_namespace' => 'App\Http\\',
 	'zoomx_cache_event_map' => 0,
 	'zoomx_file_snippets_path' => '{core_path}elements/zoomx/snippets/',
 	'zoomx_smarty_custom_plugin_dir' => '{core_path}elements/zoomx/plugins/',
 	'zoomx_template_dir' => '{core_path}elements/zoomx/templates/',
-
-	'frontendmanager_frontend_position' => 'bottom',
-	'frontendmanager_contenttypes' => '1,9',
 ];
