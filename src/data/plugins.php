@@ -34,6 +34,9 @@ return [
 		'description' => 'Подключение кастомных модификаторов Fenom',
 		'events' => [
 			'pdoToolsOnFenomInit' => []
-		]
+		],
+		'source' => true,
+		'static' => true,
+		'static_file' => 'core/elements/plugins/addFenomModificators.php',
 	],
 ];

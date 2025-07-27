@@ -20,5 +20,6 @@ return [
 		'ZoomX',
 		'modalConsole',
 		'logRotation',
+		'tvSuperSelect'
 	]
 ];

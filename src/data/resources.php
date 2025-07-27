@@ -9,6 +9,7 @@ return [
 			'published' => false,
 			'richtext' => false,
 			'searchable' => false,
+			'alias_visible' => false,
 			'resources' => [
 				'401' => [
 					'menutitle' => '401',

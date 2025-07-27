@@ -1,1 +1,3 @@
-{'!pdoSitemap' | snippet}
+{'!pdoSitemap' | snippet : [
+	'showHidden' => 1,
+]}

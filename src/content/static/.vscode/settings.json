@@ -9,5 +9,12 @@
 		"modx": "html",
 		"smarty": "html",
 	},
-	"php.version": "7.4"
+	"files.insertFinalNewline": true,
+	"cSpell.language": "en,ru",
+	"editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?$",
+	"files.autoSave": "onFocusChange",
+	"editor.accessibilitySupport": "off",
+	"intelephense.format.braces": "per",
+	"intelephense.format.enable": true,
+	"vscode-modx.elementsPath": "/core/elements/"
 }

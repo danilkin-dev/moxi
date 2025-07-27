@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /
 
 Host: {$_modx->config.http_host}
 

@@ -764,7 +764,7 @@ class MoxiPack extends MoxiModx
 			$set_list['update_set']->save();
 		}
 
-		if ($tv = $this->modx->getObject('modTemplateVar', ['name' => 'img'])) {
+		if ($tv = $this->modx->getObject('modTemplateVar', ['name' => 'image'])) {
 			foreach ($set_list as $set) {
 				$rule_data = [
 					'set' => $set->id,
