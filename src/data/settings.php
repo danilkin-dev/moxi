@@ -5,7 +5,7 @@ return [
 	'locale' => 'ru_RU.utf8',
 	'allow_multiple_emails' => 0,
 	'server_protocol' => 'http',
-	'friendly_alias_realtime' => 1,
+	'friendly_alias_realtime' => 0,
 	'friendly_alias_restrict_chars' => 'alphanumeric',
 	'friendly_alias_translit' => 'russian-fixed',
 	'friendly_urls' => 1,
