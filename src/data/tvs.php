@@ -7,7 +7,7 @@ return [
 		'caption'  => 'Изображение',
 		'category' => 0,
 		'input_properties' => [
-			'path' => 'assets/images/{d}-{m}-{y}/',
+			'path' => 'assets/resources/{id}/',
 			'prefix' => '{rand}-',
 			'MIME' => '',
 			'showValue' => false,
