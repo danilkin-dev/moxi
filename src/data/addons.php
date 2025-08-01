@@ -20,6 +20,8 @@ return [
 		'ZoomX',
 		'modalConsole',
 		'logRotation',
-		'tvSuperSelect'
+		'tvSuperSelect',
+		'debugParser',
+		'LastModified',
 	]
 ];
